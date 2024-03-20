@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  position: relative;
+  border: 1px solid #000;
+}
+
+.block {
+  position: absolute;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.block span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
